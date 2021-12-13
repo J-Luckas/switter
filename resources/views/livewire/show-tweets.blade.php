@@ -1,9 +1,12 @@
 <div>
-    @if ( !$user )
-        @include('livewire.utils.form-sweet')
-    @else
+    @if ( $user )
         @include('livewire.utils.show-user-page')
     @endif
+
+    @if ( !$user || $user->id == Auth::user()->id )
+        @include('livewire.utils.form-sweet')
+    @endif
+
     @foreach ( $tweets as  $tweet )
         <div class="flex m-8 bg-white shadow-md rounded p-4">
             <div class="w-1/8 pl-3 text-center">

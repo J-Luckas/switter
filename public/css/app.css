@@ -1229,6 +1229,9 @@ select {
 .mb-8 {
 	margin-bottom: 2rem;
 }
+.ml-5 {
+	margin-left: 1.25rem;
+}
 .block {
 	display: block;
 }
@@ -1804,6 +1807,9 @@ select {
 }
 .font-semibold {
 	font-weight: 600;
+}
+.font-extrabold {
+	font-weight: 800;
 }
 .font-bold {
 	font-weight: 700;

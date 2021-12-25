@@ -1226,11 +1226,11 @@ select {
 .-mt-px {
 	margin-top: -1px;
 }
-.mb-8 {
-	margin-bottom: 2rem;
-}
 .ml-5 {
 	margin-left: 1.25rem;
+}
+.mb-8 {
+	margin-bottom: 2rem;
 }
 .block {
 	display: block;

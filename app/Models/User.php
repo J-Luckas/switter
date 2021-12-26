@@ -3,7 +3,7 @@
 namespace App\Models;
 
 use Laravel\Sanctum\HasApiTokens;
-use Laravel\Jetstream\HasPhotoBanner;
+// use Laravel\Jetstream\HasPhotoBanner;
 use Laravel\Jetstream\HasProfilePhoto;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Fortify\TwoFactorAuthenticatable;
@@ -16,7 +16,7 @@ class User extends Authenticatable
     use HasApiTokens;
     use HasFactory;
     use HasProfilePhoto;
-    use HasPhotoBanner;
+    // use HasPhotoBanner;
     use Notifiable;
     use TwoFactorAuthenticatable;
 

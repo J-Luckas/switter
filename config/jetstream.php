@@ -44,7 +44,7 @@ return [
     'features' => [
         // Features::termsAndPrivacyPolicy(),
         Features::profilePhotos(),
-        // Features::photosBanner(),
+        Features::photosBanner(),
         // Features::api(),
         // Features::teams(['invitations' => true]),
         Features::accountDeletion(),
